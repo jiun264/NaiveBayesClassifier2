@@ -14,7 +14,7 @@ pip install numpy pandas scipy scikit-learn
 ```
 
 ### 數據集
-本項目使用了名為 "wine.data" 的數據集，包含葡萄酒的化學特性。您可以通過以下鏈接獲取數據集：[wine.data](链接到数据集)
+本項目使用了名為 "wine.data" 的資料集，包含葡萄酒的化學特性。您可以通過以下鏈接獲取數據集：[wine.data](链接到数据集)
 
 ### 執行範例
 ```python
