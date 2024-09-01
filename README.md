@@ -13,8 +13,8 @@
 pip install numpy pandas scipy scikit-learn
 ```
 
-### 數據集
-本項目使用了名為 "wine.data" 的資料集，包含葡萄酒的化學特性。您可以通過以下鏈接獲取數據集：[wine.data](链接到数据集)
+### 資料集
+本項目使用了名為 "wine.data" 的資料集，包含葡萄酒的化學特性。您可以通過以下鏈接獲取資料集：[wine.data](連接到資料集)
 
 ### 執行範例
 ```python
@@ -23,17 +23,17 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from your_module_name import NaiveBayesClassifier  # 請替換為你的模塊名稱
 
-# 讀取數據集
+# 讀取資料集
 feature_names = ['label', 'Alcohol', 'Malic acid', ...]  # 請添加完整的特徵名稱
 data = pd.read_csv("wine.data", names=feature_names)
 data = data.sample(frac=1)
 
-# 劃分數據集
+# 劃分資料集
 half = len(data) // 2
 train = data.iloc[:half]
 test = data.iloc[half:]
 
-# 數據預處理
+# 資料預處理
 scaler = StandardScaler()
 labels = train.iloc[:, 0].values
 labels_test = test.iloc[:, 0].values
@@ -62,9 +62,4 @@ nb.fit2(train_features, labels)
 nb.Bayes_error()
 ```
 
-## 參考
-在這裡添加任何您參考的文檔、論文或資源。
 
-```
-
-請注意，上述模板僅為參考，請根據您的需求進行修改。
